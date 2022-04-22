@@ -24,8 +24,12 @@ body {
     box-shadow: 4px 4px 6px rgb(33, 118, 124), -2px -2px 8px #7edac6 ;
     box-sizing: border-box;
     border: 2px solid white;
+    transition: all .3s ;
 }
-
+.card:hover{
+    transform: scale(1.2);
+    background: rgb(230, 211, 211);
+}
 .card__image {
     height: 180px;
     width: 100%;
